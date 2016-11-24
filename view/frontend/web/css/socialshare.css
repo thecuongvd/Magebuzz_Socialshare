@@ -1,0 +1,41 @@
+/**
+* @copyright Copyright (c) 2016 www.magebuzz.com
+*/
+#magebuzz-social { 
+    display: block;
+    width: 100%;
+    margin-bottom:20px;
+}
+#magebuzz-social .social-button {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.page-wrapper {position: relative;}
+#magebuzz-social.pos-sunkmenu .social-button {
+    display: block;
+}
+#magebuzz-social.pos-sunkmenu{
+    position:absolute; 
+    top:50px; 
+    left:0px; 
+    z-index:9999; 
+    width: 30px;
+    border: 1px solid grey;
+    background: lightgrey;
+}
+#magebuzz-social.pos-sunkmenu .share-button-list{display:none; padding: 10px;}
+#magebuzz-social.pos-sunkmenu .share-button-list .social-button{
+    display:block; 
+    margin-bottom: 5px;
+}
+#magebuzz-social.pos-sunkmenu .label {
+    width: 30px; 
+    height: 30px;
+}
+
+
+
+
+
