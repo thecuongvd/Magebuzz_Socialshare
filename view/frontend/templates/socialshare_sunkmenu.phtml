@@ -12,7 +12,7 @@ if ($position == 'sunkmenu') {
     ?>
     <div id="magebuzz-social" class="pos-<?php echo $position; ?>">
         <div class="label">
-            <img src="<?php echo $block->getViewFileUrl('Magebuzz_Socialshare::images/social-share.png'); ?>" />
+            <img src="<?php echo $block->getViewFileUrl('Magebuzz_Socialshare::images/social-share-icon.png'); ?>" />
         </div>
         <div class="share-button-list">
             <?php
@@ -45,7 +45,7 @@ if ($position == 'sunkmenu') {
                         $('#magebuzz-social').children('.share-button-list').fadeIn();
                     },
                     function(){
-                        $('#magebuzz-social').css({width:'30xp', height: '30px'});
+                        $('#magebuzz-social').css({width:'50px', height:'30px'});
                         $("#magebuzz-social").children('.label').show();
                         $("#magebuzz-social").children('.share-button-list').fadeOut();
                     }

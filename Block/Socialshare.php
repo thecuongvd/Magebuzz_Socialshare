@@ -16,7 +16,6 @@ class Socialshare extends \Magento\Framework\View\Element\Template {
 
     public $_coreRegistry;
     public $_scopeConfig;
-    protected $_storeManager;
     protected $_urlInterface;
     public $_priceHelper;
     public $_product;
@@ -25,8 +24,7 @@ class Socialshare extends \Magento\Framework\View\Element\Template {
 
     public function __construct(
         Context $context, 
-        Registry $coreRegistry, 
-        \Magento\Store\Model\StoreManagerInterface $storeManager,
+        Registry $coreRegistry,
         \Magento\Framework\UrlInterface $urlInterface, 
         \Magento\Cms\Model\PageFactory $cmsPageFactory,
         PricingHelper $pricingHelper, 
@@ -35,7 +33,6 @@ class Socialshare extends \Magento\Framework\View\Element\Template {
         parent::__construct($context, $data);
         $this->_coreRegistry = $coreRegistry;
         $this->_scopeConfig = $context->getScopeConfig();
-        $this->_storeManager = $storeManager;
         $this->_urlInterface = $urlInterface;
         $this->_priceHelper = $pricingHelper;
         $this->_product = $this->_coreRegistry->registry('current_product');

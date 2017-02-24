@@ -19,12 +19,12 @@
                 <label>Sharing Pages</label>
                 <field id="product_details_page" translate="label" type="select" sortOrder="1" showInDefault="1"
                        showInStore="1" showInWebsite="1">
-                    <label>Display Sharing Buttons in Product Details Page</label>
+                    <label>Display Sharing Buttons in Product Page</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
                 <field id="category_details_page" translate="label" type="select" sortOrder="2" showInDefault="1"
                        showInStore="1" showInWebsite="1">
-                    <label>Display Sharing Buttons in Category Details Page</label>
+                    <label>Display Sharing Buttons in Category Page</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
                 <field id="cms_pages" translate="label" type="select" sortOrder="3" showInDefault="1"
